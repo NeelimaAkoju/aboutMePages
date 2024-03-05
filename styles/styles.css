@@ -1,9 +1,27 @@
 body{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font:300 1em/1.2 "Open Sans",sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    text-align: right;
+    background-image: url("../images/FullStack.png") ;
+    padding-right: 30px;
 }
-h2{
-    color: blueviolet;
+h2,h3{
+    color:rgb(18, 1, 42);
+    font-family:"Lato",sans-serif;
 }
 .image{
-    width: 100px;
+    width: 50px;
+}
+
+p {
+    text-align: right;
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+.main-nav{
+    display: flex;
+    align-items: start;
+    justify-content: end;
 }
